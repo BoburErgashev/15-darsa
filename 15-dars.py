@@ -78,8 +78,8 @@ qimatli_qogozlar={
     'Qozog\'iston':'tenge'}
 for kalit,qiymat in qimatli_qogozlar.items():
     print(f"{kalit.title()}ning pul birligi {qiymat}")
-    
-    
+    print(f"Kalit:{kalit}")    
+    print(f"Qiymat:{qiymat}")
     
     
     
